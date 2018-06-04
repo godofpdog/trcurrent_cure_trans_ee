@@ -1,7 +1,7 @@
 # trcurrent_cure_trans_ee
 
 ## recurrent cure model
-* consider events could occur several times, want to build model on each gap time to predict the probbability of event occur.
+* consider events could occur several times, want to build model on each gap time to predict the probability of event occur.
 * When the event occur ,like heart attack for example, patients will go to hospital and receive treatment. There is chance to be 'cured', which means the disease will not happend again.
 
 ## semiparametric transformation models
