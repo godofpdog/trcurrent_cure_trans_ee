@@ -1,7 +1,7 @@
 # trcurrent_cure_trans_ee
 
 ## recurrent cure model
-* consider events could occur several times, want to build model on each gap time to predict the probbability of event occur.
+* consider events could occur several times, want to fit model on each gap time to predict the probbability of event occur.
 * when the event occur like heart attack, the patient will go to hospital and receive treatment. There is chance to be 'cure', which means the disease will not happend again.
 
 ## semiparametric transformation models
@@ -14,7 +14,8 @@
 * application
 
 ## simulation : 
-Simulation is the way to find out the performance of entire algorithm on different situations. Generating data by a known parameters of model, we can get some metrics like 'rmse' of the estimation of weights in the model (see '/simulation/output/summary.txt'). That is, we controll the situations by setting parameters then evaluate the algorithm's performane and decide whether to use this method.
+Simulation is the way to find out the performance of entire algorithm on different situations. Generating data by a known parameters of model, we can get some metrics like 'rmse' of the estimation of weights in the model 
+(see '/simulation/output/summary.txt'). That is, we controll the situations by setting parameters then evaluate the algorithm's performane and decide whether to use this method.
 
 ### *RUN.R* : run the algorithm by setup some params.
 * n : sample size of the simulation
