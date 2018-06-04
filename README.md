@@ -28,7 +28,5 @@ Simulation is the way to find out the performance of entire algorithm on differe
 * R.fn : baseline hazerd related to the gap time distribution.
 * R.in : inverse function of baseline hazerd.
 * md : model of the gap time.
-\n
-*continue.R* : continue the programs if it shutdown.
-\n
-*setup* help us to find the params to generate the data of wanted situation.
+> *continue.R* : continue the programs if it shutdown.
+> *setup* help us to find the params to generate the data of wanted situation.
