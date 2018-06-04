@@ -16,7 +16,7 @@
 ## simulation : 
 Simulation is the way to find out the performance of entire algorithm on different situations. Generating data by a known parameters of model, we can get some metrics like 'rmse' of the estimation of weights in the model (see '/simulation/output/summary.txt'). That is, we controll the situations by setting parameters then evaluate the algorithm's performane and decide whether to use this method.
 
-*RUN.r* : run the algorithm by setup some params.
+* *RUN.r* : run the algorithm by setup some params.
 * n : sample size of the simulation
 * REP : replication of whole simulation.
 * sbeta : initial values of beta related to the gap time distribution.
@@ -28,5 +28,5 @@ Simulation is the way to find out the performance of entire algorithm on differe
 * R.fn : baseline hazerd related to the gap time distribution.
 * R.in : inverse function of baseline hazerd.
 * md : model of the gap time.
-> *continue.R* : continue the programs if it shutdown.
-> *setup* help us to find the params to generate the data of wanted situation.
+* *continue.R* : continue the programs if it shutdown.
+* *setup* help us to find the params to generate the data of wanted situation.
